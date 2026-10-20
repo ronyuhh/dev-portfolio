@@ -1,0 +1,230 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Front-end developer building modern, responsive websites with HTML, CSS and JavaScript.">
+    <title>Mehedi Hasan Rony | Front-End Developer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+
+    <header class="site-header">
+        <nav class="navbar container" aria-label="Main navigation">
+            <a class="logo" href="#home">dev<span>.</span></a>
+
+            <button class="menu-toggle" aria-label="Open menu"
+                aria-expanded="false" aria-controls="nav-links">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#work">Projects</a></li>
+                <li><a class="nav-contact" href="#contact">Let's Talk <span>↗</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero container" id="home">
+            <div class="hero-content">
+                <div class="availability">
+                    <span class="status-dot"></span>
+                    I build modern websites that help businesses stand out.
+                </div>
+
+                <p class="eyebrow">HELLO, I'M A FRONT-END DEVELOPER</p>
+
+                <h1>
+                    I build digital<br>
+                    experiences that<br>
+                    <span class="gradient-text">stand out.</span>
+                </h1>
+
+                <p class="hero-description">
+                    I'm a web developer focused on building responsive, user-friendly websites with HTML, CSS, and JavaScript. I turn ideas into clean, engaging digital experiences.
+                </p>
+
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#work">
+                        Explore my work <span>↗</span>
+                    </a>
+                    <a class="button button-secondary" href="#contact">
+                        Let's talk
+                    </a>
+                </div>
+
+                <div class="hero-meta">
+                    <span>Based in Bangladesh</span>
+                    <span class="meta-divider"></span>
+                    <span>HTML · CSS · JavaScript</span>
+                </div>
+            </div>
+
+            <div class="hero-visual" aria-label="Developer code illustration">
+                <div class="visual-orbit orbit-one"></div>
+                <div class="visual-orbit orbit-two"></div>
+
+                <div class="code-card">
+                    <div class="code-card-header">
+                        <div class="window-dots">
+                            <span></span><span></span><span></span>
+                        </div>
+                        <span>developer.js</span>
+                    </div>
+
+                    <div class="code-content">
+                        <p><span class="code-purple">const</span> developer = {</p>
+                        <p class="code-indent">name: <span class="code-green">'Mehedi Hasan Rony'</span>,</p>
+                        <p class="code-indent">role: <span class="code-green">'Frontend Developer'</span>,</p>
+                        <p class="code-indent">skills: [</p>
+                        <p class="code-indent code-more"><span class="code-orange">'HTML'</span>, <span class="code-orange">'CSS'</span>,</p>
+                        <p class="code-indent code-more"><span class="code-orange">'JavaScript'</span></p>
+                        <p class="code-indent">],</p>
+                        <p class="code-indent">passion: <span class="code-green">'Building for the web'</span></p>
+                        <p>};</p>
+                        <p class="code-last"><span class="code-purple">return</span> developer.build();<span class="cursor">▋</span></p>
+                    </div>
+                </div>
+
+                <div class="floating-badge badge-top">
+                    <span class="badge-icon">✳</span>
+                    <span>Clean code<br><strong>Thoughtful design</strong></span>
+                </div>
+
+                <div class="floating-badge badge-bottom">
+                    <span class="badge-check">✓</span>
+                    Responsive by design
+                </div>
+            </div>
+        </section>
+
+        <section class="trust-strip container">
+            <span>BUILDING WITH</span>
+            <div>HTML5</div>
+            <div>CSS3</div>
+            <div>JavaScript</div>
+            <div>Git & GitHub</div>
+        </section>
+
+        <section class="section container" id="about">
+            <p class="eyebrow">A LITTLE ABOUT ME</p>
+            <h2>Design-minded.<br><span class="gradient-text">Code-focused.</span></h2>
+            <p class="section-description">
+                I enjoy creating websites that combine thoughtful design with practical functionality. My focus is on responsive layouts, clean code, smooth interactions, and experiences that work well across desktop and mobile devices.
+            </p>
+        </section>
+
+        <section class="section container" id="skills">
+            <p class="eyebrow">MY TOOLKIT</p>
+            <h2>Skills that bring<br>ideas to life.</h2>
+
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <span class="skill-number">01</span>
+                    <h3>HTML5</h3>
+                    <p>Semantic structure and accessible page content.</p>
+                </article>
+                <article class="skill-card">
+                    <span class="skill-number">02</span>
+                    <h3>CSS3</h3>
+                    <p>Responsive layouts, modern styling, and animation.</p>
+                </article>
+                <article class="skill-card">
+                    <span class="skill-number">03</span>
+                    <h3>JavaScript</h3>
+                    <p>Interactive features and practical user experiences.</p>
+                </article>
+                <article class="skill-card">
+                    <span class="skill-number">04</span>
+                    <h3>Git & GitHub</h3>
+                    <p>Version control and publishing web projects.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section container" id="work">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">SELECTED PROJECTS</p>
+                    <h2>Some things I've<br>put into <span class="gradient-text">the world.</span></h2>
+                </div>
+                <span class="project-count">01 — FEATURED</span>
+            </div>
+
+            <article class="project-card">
+                <div class="project-preview">
+                    <div class="preview-topbar">
+                        <span>nexa.digital</span>
+                        <span>✳</span>
+                    </div>
+                    <div class="preview-content">
+                        <span class="preview-label">DIGITAL EXPERIENCES</span>
+                        <h3>Ideas into<br><span>impact.</span></h3>
+                        <div class="preview-line"></div>
+                        <div class="preview-pills">
+                            <span>Strategy</span><span>Design</span><span>Development</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-info">
+                    <p class="eyebrow">01 / WEB DEVELOPMENT</p>
+                    <h3>Nexa Digital</h3>
+                    <p>
+                        A responsive digital agency website featuring
+                        service sections, a project showcase, mobile
+                        navigation, and a contact form.
+                    </p>
+                    <div class="project-tags">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://ronyuhh.github.io/nexa-digital/"
+                           target="_blank" rel="noopener noreferrer">
+                            Live website ↗
+                        </a>
+                        <a href="https://github.com/ronyuhh/nexa-digital"
+                           target="_blank" rel="noopener noreferrer">
+                            Source code ↗
+                        </a>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section class="section container" id="contact">
+            <div class="contact-panel">
+                <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
+                <h2>Let's build something<br><span class="gradient-text">remarkable.</span></h2>
+                <p class="section-description">
+                    Have a website idea or need help with a front-end task?
+                    I'd be happy to hear about it.
+                </p>
+                <a class="button button-primary"
+                   href="mailto:ronyhasan1157@gmail.com">
+                    Get in touch <span>↗</span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer container">
+        <a class="logo" href="#home">dev<span>.</span></a>
+        <p>Designed & built with care.</p>
+        <p>© <span id="year"></span> Mehedi Hasan Rony</p>
+    </footer>
+</body>
+</html>
